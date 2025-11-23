@@ -297,7 +297,7 @@ Where:
 - Total lead time = 7 days
 - μ (daily avg) = 12 units per day
 - σ (daily std dev) = 6 units per day
-- z = 1.96 for a 97.5 percent cycle service target
+- z = 1.96 for desired service level
 - Current inventory = 50 units
 - Case pack = 24 units
 
@@ -454,7 +454,7 @@ Algorithm parameters and service level targets.
 
 **Key Configuration Parameters:**
 - `REVIEW_BUFFER_DAYS`: Days needed to review order before submitting (1 day)
-- `Z_SCORE`: Z-score for safety stock calculation (e.g., 1.96 for 97.5% service level)
+- `Z_SCORE`: Z-score for safety stock calculation (e.g., 1.96 for service level)
 - `VELOCITY_THRESHOLD_WEEKLY`: Weekly demand threshold for high/low classification (12 units)
 - `LOW_VEL_MAX_MULTIPLIER`: Multiplier for low velocity max calculation (10)
 - `LOW_VEL_MIN_UNITS`: Absolute minimum for low velocity items (2 units)

@@ -106,7 +106,7 @@ Detailed step-by-step logic is documented in `replenishment_algorithm_logic_over
 
 Key parameters in `policy_configuration.csv`:
 
-- **Z_SCORE**: 1.96 (97.5% service level)
+- **Z_SCORE**: 1.96
 - **VELOCITY_THRESHOLD_WEEKLY**: 12 units
 - **LOW_VEL_MAX_MULTIPLIER**: 10x daily demand
 - **HISTORICAL_LOOKBACK_DAYS**: 56 days
