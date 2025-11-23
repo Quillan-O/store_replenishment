@@ -1,0 +1,6 @@
+PARAMETER_NAME,PARAMETER_VALUE,PARAMETER_TEXT,DESCRIPTION
+Z_SCORE,1.96,,Z-score for safety stock calculation (97.5% service level)
+VELOCITY_THRESHOLD_WEEKLY,12.0,,Weekly demand threshold for high/low classification
+LOW_VEL_MAX_MULTIPLIER,10.0,,Multiplier for low velocity max calculation
+LOW_VEL_MIN_UNITS,2.0,,Absolute minimum for low velocity items
+HISTORICAL_LOOKBACK_DAYS,56.0,,Days of history to analyze for demand calculations
